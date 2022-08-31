@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.webContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timerDisplay {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 10px solid rgb(22, 211, 224);
+}
+.timerInterFace{
+      height: 50px;
+      width: 100%;
+      text-align: center;
+      font-size:20px;
+      vertical-align: middle;
+}
